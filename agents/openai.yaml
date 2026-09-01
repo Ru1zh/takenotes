@@ -1,0 +1,7 @@
+interface:
+  display_name: "Take Notes"
+  short_description: "Create evidence-based Obsidian course notes"
+  default_prompt: "Use $takenotes to create evidence-based Obsidian course notes from the provided PDF, PowerPoint, or Word materials, adding a Glossary only when applicable."
+
+policy:
+  allow_implicit_invocation: true
