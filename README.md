@@ -29,8 +29,8 @@ V/
 │  │  └─ 课程标识/
 │  │     ├─ 课程标识_lec1_主题名称.md
 │  │     └─ 课程标识_Table of Content.md
-│  └─ English/Glossary/课程标识/
-│     └─ 课程标识_lec1_Glossary.md   # 仅英文主语言材料
+│  └─ English/Glossary/Course/课程标识/
+│     └─ 课程标识_lec1_Glossary.md   # 仅英文主语言课程材料
 └─ Source/Img/Course/课程标识/
    └─ 课程标识_lec1_语义名称.png       # 仅在图片确有必要时
 ```
@@ -51,6 +51,10 @@ V/Notes/CS/Machine Learning/笔记名.md
 图片仍按课程或主题保存到 `V/Source/Img/...`，不会生成 `V/Notes/CS/Machine Learning/Notes/` 或 `V/Notes/CS/Machine Learning/Source/`。
 
 任务完成后，Skill 会报告每个实际生成文件的位置，便于直接找到笔记、目录、Glossary 和图片，而不是只给出模板路径。
+
+此 Glossary 路径规则适用于新生成的文件；它不会自动搬迁旧 Glossary 或改写指向旧文件的 Wiki-link。
+
+课程笔记末尾的“相关笔记”只列对应 Glossary（若有）、课程目录顺序中的上一篇和下一篇（若有），以及课程目录文件。新建或插入笔记时会检查相邻笔记的前后链接，并在获授权的范围内同步更新；若现有笔记不在授权范围内，会先列出待更新文件并请求授权。
 
 ## 使用方式
 
